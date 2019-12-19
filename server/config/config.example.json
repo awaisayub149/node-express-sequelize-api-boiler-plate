@@ -1,0 +1,29 @@
+{
+  "development": {
+    "username": "db_user_name",
+    "password": "db_user_password",
+    "database": "db_name",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "db_user_name",
+    "password": "db_user_password",
+    "database": "db_name",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "db_user_name",
+    "password": "db_user_password",
+    "database": "db_name",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "pool": {
+      "max": 5,
+      "min": 0,
+      "idle": 20000,
+      "acquire": 20000
+    }
+  }
+}
